@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="cardWhite">#162230</color>
+    <color name="textDark">#EAF2F8</color>
+    <color name="textGray">#B9C8D6</color>
+    <color name="lightBorder">#2B3A4A</color>
+
+    <color name="lightbluebackground">#0E1724</color>
+
+    <color name="blueStart">#1C77D4</color>
+    <color name="blueMiddle">#258DCB</color>
+    <color name="blueEnd">#36B5D8</color>
+
+    <color name="pageBackgroundStart">#08111D</color>
+    <color name="pageBackgroundMiddle">#0E1724</color>
+    <color name="pageBackgroundEnd">#121D2B</color>
+    <color name="surfaceCard">#162230</color>
+    <color name="surfaceSoft">#1D2A38</color>
+    <color name="inputSurface">#223142</color>
+    <color name="borderSoft">#33465A</color>
+    <color name="borderAccent">#2C7DA8</color>
+    <color name="textPrimary">#EAF2F8</color>
+    <color name="textSecondary">#B9C8D6</color>
+    <color name="textMuted">#9FB1C1</color>
+    <color name="primaryBlue">#45A8FF</color>
+    <color name="primaryBlueDark">#1F6FB7</color>
+    <color name="buttonSoft">#223142</color>
+    <color name="answerDefaultBg">#1D2A38</color>
+    <color name="answerDefaultText">#EAF2F8</color>
+    <color name="successGreen">#22C55E</color>
+    <color name="wrongRed">#EF4444</color>
+
+</resources>
