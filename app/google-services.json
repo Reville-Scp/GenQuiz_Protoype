@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "357297774488",
+    "project_id": "genquiz-54eaa",
+    "storage_bucket": "genquiz-54eaa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357297774488:android:eb1a6a564536129e8295ed",
+        "android_client_info": {
+          "package_name": "com.example.genquizlayout"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxzRzvbQjLV3Wq23boTIpB6TRwH7BGwzk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
