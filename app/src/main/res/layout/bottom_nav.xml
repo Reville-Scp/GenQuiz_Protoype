@@ -11,13 +11,12 @@
     <LinearLayout
         android:id="@+id/bottomNav"
         android:layout_width="match_parent"
-        android:layout_height="72dp"
+        android:layout_height="62dp"
         android:layout_gravity="bottom"
         android:background="@drawable/bottom_nav_white"
         android:elevation="10dp"
         android:gravity="center"
-        android:orientation="horizontal"
-        android:paddingHorizontal="12dp">
+        android:paddingHorizontal="0dp">
 
         <LinearLayout
             android:id="@+id/homeNav"
@@ -31,23 +30,24 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="25dp"
-                android:layout_height="25dp"
-                android:src="@drawable/ic_home3"/>
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:src="@drawable/quiz"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="3dp"
-                android:text="Home"
+                android:layout_marginTop="2dp"
+                android:text="Generate"
                 android:textColor="@color/textPrimary"
-                android:textSize="10sp"/>
+                android:textSize="10sp"
+                android:textStyle="bold"/>
 
         </LinearLayout>
 
         <Space
-            android:layout_width="88dp"
-            android:layout_height="match_parent"/>
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"/>
 
         <LinearLayout
             android:id="@+id/quizzezNav"
@@ -61,17 +61,20 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="27dp"
-                android:layout_height="27dp"
-                android:src="@drawable/ic_quiz"/>
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:src="@drawable/review"/>
+
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="3dp"
-                android:text="Quizzes"
+                android:layout_marginTop="2dp"
+                android:text="Review"
                 android:textColor="@color/textPrimary"
-                android:textSize="10sp"/>
+                android:textSize="10sp"
+                android:layout_marginStart=".5dp"
+                android:textStyle="bold"/>
 
         </LinearLayout>
 
@@ -80,7 +83,7 @@
     <LinearLayout
         android:id="@+id/pdfconNav"
         android:layout_width="74dp"
-        android:layout_height="100dp"
+        android:layout_height="80dp"
         android:layout_gravity="top|center_horizontal"
         android:elevation="24dp"
         android:translationZ="24dp"
@@ -109,10 +112,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="2dp"
+            android:layout_marginTop="3dp"
             android:text="PDF Converter"
             android:textColor="@color/textPrimary"
-            android:textSize="10sp"/>
+            android:textSize="10sp"
+            android:textStyle="bold"/>
 
     </LinearLayout>
 
